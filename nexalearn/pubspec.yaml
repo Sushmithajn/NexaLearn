@@ -1,0 +1,53 @@
+name: nexalearn
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  excel: ^2.1.0
+  path_provider: ^2.0.15
+  provider: ^6.0.2
+  cupertino_icons: ^1.0.2
+  open_file: ^3.5.10
+  shared_preferences: ^2.0.15
+  audioplayers: ^6.2.0
+  timezone: ^0.10.0
+  flutter_local_notifications: ^18.0.1
+  flutter_local_notifications_platform_interface: any  # Ensure compatibility
+  
+
+
+flutter:
+  assets:
+    - D:/NexaLearn/nexalearn/assets/tutor.jpg
+    - assets/background.jpg
+    - assets/questions.xlsx
+    - assets/icon.png
+    - assets/python_detailed_tutorial.xlsx
+    - assets/java_topics (1).xlsx
+    - assets/basic_aptitude_questions.xlsx
+    - assets/basic_aptitude_questions (1).xlsx
+
+  uses-material-design: true
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter_native_splash:
+  color: "#FFFFFF"  # Background color of the splash screen
+  image: assets/icon.png  # Path to the splash logo
+  android_12:
+    image: assets/icon.png # Path to the splash logo for Android 12+
+    icon_background_color: "#FFFFFF"  # Background color for icon
